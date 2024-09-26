@@ -12,4 +12,26 @@ The Classification Models used are:
 2] YOLOv8  
 3] EfficientNet  
 4] Roboflow 2.0 Multi-label Classification  
+ 
+## Model Performance
+
+### YOLOv5  
+Epochs: 100  
+Accuracy:  
+![](YoloV5_Classification/Result.PNG)  
+### EffcientNet
+Epochs: 50  
+Version: efficientnet_b3  
+Accuracy:  
+![](Efficientnet_Classification/Result.PNG)  
+### YOLOv8  
+Epochs: 50  
+Accuracy:99%    
+Confusion Matrix:  
+<img src="YoloV8_Classification/confusion_matrix_normalized.png" width="700" height="550"/>
+
+Plots:  
+<img src="YoloV8_Classification/results.png" width="700" height="700"/>  
+### Roboflow
+Accuracy:99.1%
 
